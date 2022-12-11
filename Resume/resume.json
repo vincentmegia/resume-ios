@@ -1,0 +1,108 @@
+{
+   "profile": "Software engineer with over 18 years experience. 10 successful years in full stack development in finance and banking systems. Excellent track record leading and building enterprise systems from the ground up.",
+   "experiences": [
+      {
+         "id": 1,
+         "role": {
+            "id": "role-1",
+            "name": "Front end Squad Lead",
+            "responsibilities": [
+               "Collaborate on a weekly basis with Product Owner, Design team, Senior architect and Backend leads on planning and execution of requirement and solution",
+               "Liaise with product owner and project manager for requirements and timeline",
+               "Implemented pro active mobile monitoring system that enables better production support.",
+               "Implemented modularisation in react-native applications that lowers cost.",
+               "Oversees planning, tasks and resource management for mobile front end team",
+               "Code critical requirements in react-native, Kotlin and Swift, ensures high quality code that meets business requirements",
+               "Enforce industry standard and ensure user journey adheres to Design team specification",
+               "Enforce industry CI/CD best practices",
+               "Support for SIT and UAT activities",
+               "Production support for incidents"
+            ],
+            
+         },
+         "company": {
+            "id": "c-1",
+            "name": "Singtel",
+            "address": "",
+            "image": "",
+            "duration": "APRIL 2021 – PRESENT"
+         },
+         "description": "Mobile application and Website team lead in Singtel’s consumer prepaid applications. Empowers business to enable sim/esim card buy flow, topup services, prepaid plans and remittance services.",
+         "technologyStack": "React-native, Swift, Java, Kotlin, Bamboo, Fastlane, Firebase, Google Analytics, Fullstory Analytics"
+      },
+      {
+         "id": 2,
+         "role": {
+            "id": "role-2",
+            "name": "Staff software engineer",
+            "responsibilities": [
+               "Liaise with product owner and project manager for requirements and timeline",
+               "Contribute high quality code that meets business requirements",
+               "Enforce high quality code standards",
+               "Enforce industry CI/CD best practices",
+               "Support for SIT and UAT activities"
+            ]
+         },
+         "company": {
+            "id": "c-2",
+            "name": "Paypal",
+            "address": "",
+            "image": "",
+            "duration": "OCT 2020 – FEB 2021"
+         },
+         "description": "QR Code(QRC) gateway API is an orchestration layer for all US PayPal QRC mobile scanning transactions. The initiative is to cut down the time spent by customers when transacting with merchants by scan to pay transactions. Develops high quality code from user stories and liaises with relevant parties for clarification. Technology stack using SpringBoot for REST API Microservices, Cobertura, PM and FindBugs for Test Coverage. Jenkins and docker containers for CD/CI.",
+         "technologyStack": "Java, Spring, Git, Kafka, Jenkins"
+      },
+      {
+         "id": 3,
+         "role": {
+            "id": "role-3",
+            "name": "Staff software engineer",
+            "responsibilities": [
+                "Supports Users Acceptance Testing phase",
+                "Maintains SIT and UAT environments",
+                "Supports issues raised in Production including bug fixes",
+                "Writes automated unit test using NUnit for continuous integration",
+                "Creates and maintains Team City build configurations"
+            ]
+         },
+         "company": {
+            "id": "c-3",
+            "name": "Sofgen",
+            "address": "",
+            "image": "",
+            "duration": "DEC 2016 – FEB 2021"
+         },
+         "description": "Charles River has a rich set of APIs that enables the business to implement highly tailored components to customize user experience and help design business aligned back end services.",
+         "technologyStack": "C#, NUnit, WCF, SQL Server, Springnet"
+      },
+      {
+         "id": 4,
+         "role": {
+            "id": "role-4",
+            "name": "Staff software engineer",
+            "responsibilities": [
+                "Coordinated and demonstrated UX prototyping with business.",
+                "Designed and developed responsive web user interface using Angular, Typescript and WebSockets",
+                "Developed efficient and scalable back end system wri7en in Java and Spring while leveraging concurrency using AKKA",
+                "Enforced industry best prac^ce for Continuous Integra^on and Con^nuous development",
+                "Developed ETL transforma^on layer using ULLink to convert Charles River FIX 4.4 messages to SwiD XML specification.",
+                "Developed Java component that transforms SwiD XML to SwiD banking protocol (MT502, MT509, MT515) using Spring and WIFE libraries",
+                "Implemented SQL Server stored procedure to perform data cleansing, munging, merging and canonicalization",
+                "Developed Autosys batch scheduling jobs",
+                "Improved erroneous Informa^ca Workflow manual deployment workflow thru automation",
+                "Encouraged team members to adhere to best prac^ces in coding, source control management and doing things the right way with no shortcuts"
+            ]
+         },
+         "company": {
+            "id": "c-3",
+            "name": "Barclays capital",
+            "address": "",
+            "image": "",
+            "duration": "JAN 2010 – DEC 2016"
+         },
+         "description": "VESTIMA FUND INTEGRATION \nCharles River integration with Vestima provided a gateway to global funds solutions ranging from order routing, centralized delivery versus payment (DVP) settlement, safekeeping and asset servicing to collateral management. Private bankers manages creates orders by Charles river that is routed to Vestima fund solution by communicating thru SWIFT banking protocol. Played the key role in delivering complex backend system \n\nCHARLES RIVER ANYWHERE REFRESH \nCharles River Anywhere is the web platform version of Charles River which primarily used by Private Bankers (PB) and Private Banking Executives (PBEs). The re-engineered platform is designed to be lightweight with stunning interface built according to the users’ most demanding requirements \n\nCHARLES RIVER DATA FEEDS \nCharles River Investment Management System is used heavily by wealth private bankers for its highly sophisticated portfolio management features, Dealers edge the competition by taking advantage of its complex order management execution features. Data feed pumped into Charles River is comprised of highly complex sequence of batches where securities, accounts, positions, currencies, exchanges and FXs data is derived from different source systems. Data undergoes several phase of intense processing of cleansing, filtering, munging, merging and finally canonicalization before pumped into Charles River. \n\nSTRATEGIC CLIENT REPORTING MIGRATION\nA genuine reporting solution catered to deliver performance reports to banking clients from mass affluence to high net worth’s. The main driver was to move-out of Actuate for cost reasons and move to SAP Business Objects. Delivered the critical web interface and enhanced the reporting engine using multi-threaded approach.",
+         "technologyStack": "C#, NUnit, WCF, SQL Server, Springnet"
+      }
+   ]
+}
