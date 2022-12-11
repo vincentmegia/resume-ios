@@ -29,6 +29,7 @@ struct SkillSection: View {
                             .foregroundColor(.yellow)
                     }
                 }
+                .padding(.bottom, 2)
             }
         }
     }
@@ -36,6 +37,7 @@ struct SkillSection: View {
 
 struct SkillSection_Previews: PreviewProvider {
     static var previews: some View {
-        SkillSection(skills: [Skill(id: 1, name: "Java", ratings: 5)])
+        SkillSection(skills: [Skill(id: 1, name: "Java", ratings: 5),
+                              Skill(id: 1, name: "Javascsript", ratings: 5)])
     }
 }

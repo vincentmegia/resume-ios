@@ -22,7 +22,7 @@ struct ContentView: View {
         NavigationView{
             ScrollView {
                 VStack {
-                    Avatar(imageSystemName: "camera.fill")
+                    Avatar(imageSystemName: "Avatar")
                         .frame(height: 250)
                         .padding(.top, 60)
                         .background(LinearGradient(colors: [.white, .red.opacity(0.5)], startPoint: .top, endPoint: .bottom))

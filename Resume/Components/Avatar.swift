@@ -11,12 +11,12 @@ struct Avatar: View {
     var imageSystemName: String
     var body: some View {
         ZStack{
-            Image("avatar")
-                .imageScale(.large)
+            Image(imageSystemName)
+                .resizable()
                 .frame(width: 160, height: 160)
                 .clipShape(RoundedRectangle(cornerRadius: 50))
                 .overlay(
-                    Image(systemName: imageSystemName)
+                    Image(systemName: "camera.fill")
                         .frame(width: 40, height: 40)
                         .background(Color.gray)
                         .clipShape(Circle())
@@ -40,6 +40,6 @@ struct Avatar: View {
 
 struct Avatar_Previews: PreviewProvider {
     static var previews: some View {
-        Avatar(imageSystemName: "camera.fill")
+        Avatar(imageSystemName: "Avatar")
     }
 }
